@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <polyline points="120.452,450 50,310.722 120.452,450" fill="none" stroke="green" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="765.563,250.43 378.042,50 455.881,363.531 765.563,250.43" fill="none" stroke="rgb(255,160,0)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="120.452" y="450" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">114</text>
+  <text fill="green" x="120.452" y="450" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">114</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="50" y="310.722" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">114</text>
+  <text fill="green" x="50" y="310.722" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">114</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="765.563" y="250.43" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">14</text>
+  <text fill="rgb(255,160,0)" x="765.563" y="250.43" dx="7" dy="15" font-size="20" font-family="Verdana" font-weight="bold">14</text>
+  <circle cx="378.042" cy="50" r="5" fill="white"/>
+  <circle cx="120.452" cy="450" r="5" fill="white"/>
+  <circle cx="50" cy="310.722" r="5" fill="white"/>
+  <circle cx="455.881" cy="363.531" r="5" fill="white"/>
+  <circle cx="765.563" cy="250.43" r="5" fill="white"/>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="378.042" y="50" dx="7" dy="-3" font-size="18" font-family="Verdana">Elektroseti</text>
+  <text fill="black" x="378.042" y="50" dx="7" dy="-3" font-size="18" font-family="Verdana">Elektroseti</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="120.452" y="450" dx="7" dy="-3" font-size="18" font-family="Verdana">Morskoy vokzal</text>
+  <text fill="black" x="120.452" y="450" dx="7" dy="-3" font-size="18" font-family="Verdana">Morskoy vokzal</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="50" y="310.722" dx="7" dy="-3" font-size="18" font-family="Verdana">Riv'yerskiy most</text>
+  <text fill="black" x="50" y="310.722" dx="7" dy="-3" font-size="18" font-family="Verdana">Riv'yerskiy most</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="455.881" y="363.531" dx="7" dy="-3" font-size="18" font-family="Verdana">Ulitsa Dokuchayeva</text>
+  <text fill="black" x="455.881" y="363.531" dx="7" dy="-3" font-size="18" font-family="Verdana">Ulitsa Dokuchayeva</text>
+  <text fill="rgba(255,255,255,0.85)" stroke="rgba(255,255,255,0.85)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x="765.563" y="250.43" dx="7" dy="-3" font-size="18" font-family="Verdana">Ulitsa Lizy Chaykinoy</text>
+  <text fill="black" x="765.563" y="250.43" dx="7" dy="-3" font-size="18" font-family="Verdana">Ulitsa Lizy Chaykinoy</text>
+</svg>

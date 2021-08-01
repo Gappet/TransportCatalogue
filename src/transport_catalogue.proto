@@ -1,0 +1,75 @@
+syntax = "proto3";
+
+package transport_base;
+
+
+message Stop {
+	string name = 1;
+	uint32 id = 2;
+	double lat = 3;
+	double lng = 4;
+	
+}
+
+message Bus {
+	string name = 1;
+	bool is_roundtrip = 2;
+	repeated uint32 stops = 3;
+}
+
+
+message Point {
+	double x = 1;
+	double y = 2;
+}
+
+message RenderSettings {
+	double width = 1;
+	double height = 2;
+	double padding = 3;
+	double stop_radius = 4;
+	double line_width = 5;
+	double bus_label_front_size = 6;
+	Point bus_label_offset = 7;
+	int32 stop_label_font_size = 8;
+	Point stop_label_offset = 9;
+	string underlayer_color = 10;
+	double underlayer_width = 11;
+	repeated string color_palette = 12;
+}
+
+message Edge {
+	uint32 from = 1;
+	uint32 to = 2;
+	double weight = 3;
+}
+
+message IncidenceList{
+	repeated uint32 edge_id = 1;
+}
+
+message Graph {
+	repeated Edge edges = 1;
+	repeated IncidenceList ind_lst = 2;
+}
+
+message Weight {
+	double wait_time = 1;
+	double travel_time = 2;
+	int32 span_count = 3;
+	string stop_name = 4;
+	string bus = 5;
+	bool wait = 6;
+}
+
+
+message TransportCatalogue  {
+	repeated Stop stop = 1;
+	repeated Bus bus = 2;
+	RenderSettings render_settings = 3;
+    map<uint32, string> stop_name = 4;
+    map<string, uint32> distance = 5;
+    string separator = 6;
+	Graph graph = 7;
+	map<uint32, Weight> btw_stop_info = 8;	
+}
