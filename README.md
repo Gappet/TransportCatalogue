@@ -1,9 +1,12 @@
-# TransportCatalogue
+<h1 align="center">TransportCatalogue</h1>
 
 ## _Описание проекта:_
 
 
 Учебный проект, позволяющий создать транспортный справочник автобусных маршрутов. Система работает с JSON запросами. Осуществлена сериализация справочника через протокол Protobuff. Реализована возможность отображения карты строкой в SVG формате.
+
+<img src="https://github.com/Gappet/transport_guide/blob/main/image/map_example.jpg" align="center"/>
+</br>
 
 ##  _Развертывание проекта_
 Проект реализован на С++ 17. Для запуска следует установить [Protocol Buffers v3.17.3](https://github.com/protocolbuffers/protobuf/releases "Protocol Buffers v3.17.3").
